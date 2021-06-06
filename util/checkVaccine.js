@@ -5,7 +5,7 @@ const {sendAlertMail,createMailBody}=require("./sendMail");
 const header={
 	"content-type":"application/json",
 	"Accept-Language": "hi_IN",
-	"user-agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Mobile Safari/537.36"
+	"user-agent": "Mozilla/5.0 (Linux; Android 4.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Mobile Safari/537.36"
 }
 function getTodayDate() {
 	let today=new Date();
